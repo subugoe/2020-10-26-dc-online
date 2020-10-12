@@ -9,7 +9,7 @@ country: "Germany"      # lowercase two-letter ISO country code such as "fr" (se
 language: "English"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Oct 26-28, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate "Oct 26-28, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: ""    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-10-26      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-10-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
@@ -146,7 +146,7 @@ address.
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
-  <strong>Where:</strong> This training will take place online. Link to Big Blue Button: https://meet.gwdg.de/b/hva-ndx-gnh
+  <strong>Where:</strong> This training will take place online. Link to <a href="https://meet.gwdg.de/b/hva-ndx-gnh">Big Blue Button</a>
 </p>
 {% endif %}
 
