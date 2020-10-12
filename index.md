@@ -183,13 +183,13 @@ special instructions.
   <strong>Accessibility:</strong>
 {% if online == "false" %}
   We are committed to making this workshop
-  accessible to everybody. The workshop organizers have checked that:
+  accessible to everybody. <!--The workshop organizers have checked that:
 </p>
 <ul>
   <li>The room is wheelchair / scooter accessible.</li>
   <li>Accessible restrooms are available.</li>
-</ul>
-<p>
+</ul> -->
+<p> 
   Materials will be provided in advance of the workshop and
   large-print handouts are available if needed by notifying the
   organizers in advance.  If we can help making learning easier for
